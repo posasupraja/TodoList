@@ -22,10 +22,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lavenderblush;
 }
 
 .container {
-  background-color: antiquewhite;
+  background-color: lightblue;
   width: var(--contaier-width);
   height: var(--container-height);
 
@@ -65,25 +66,25 @@ header {
   outline: transparent;
   padding-left: 0.5rem;
   font-size: 1rem;
-  color: #fff;
+  color: lightcyan;
 }
 .new-todo form button {
   width: 60px;
   height: 40px;
   font-size: 1rem;
   background-color: transparent;
-  color: rgb(255, 247, 0);
+  color:rgba(0, 0, 0, 0.8);
   border: none;
   border-left: 0px;
   cursor: pointer;
 }
 .new-todo form button:hover {
-  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 20px violet;
 }
 
 #todos-list {
   height: calc(var(--container-height) - var(--header-height));
-  background-color: #fff;
+  background-color:#fff;
   padding: 0.5rem;
   border: 1px solid rgb(219, 219, 219);
   overflow: scroll;
